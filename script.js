@@ -1,5 +1,8 @@
 // BKS Abogados - Interactive JavaScript
 
+// Constants
+const SCROLL_OFFSET = 100;
+
 // Smooth scrolling for navigation links
 document.addEventListener('DOMContentLoaded', function() {
   // Get all navigation links
@@ -50,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.clientHeight;
       
-      if (window.pageYOffset >= (sectionTop - 100)) {
+      if (window.pageYOffset >= (sectionTop - SCROLL_OFFSET)) {
         currentSection = section.getAttribute('id');
       }
     });
