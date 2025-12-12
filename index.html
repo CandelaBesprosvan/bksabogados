@@ -1,30 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>BKS Abogados — Sitio en Construcción</title>
-  <style>
-    :root{--bg:#0f172a;--fg:#e6eef8;--muted:#94a3b8}
-    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
-    body{background:linear-gradient(180deg,#071028 0%,var(--bg) 100%);color:var(--fg);display:flex;align-items:center;justify-content:center}
-    .card{max-width:720px;padding:36px;border-radius:12px;text-align:center;background:rgba(255,255,255,0.03);box-shadow:0 8px 30px rgba(2,6,23,0.6)}
-    h1{margin:0 0 8px;font-size:28px;letter-spacing:0.2px}
-    p{margin:8px 0;color:var(--muted)}
-    .contact{margin-top:18px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.04);font-size:14px}
-    a{color:#7dd3fc;text-decoration:none}
-    .logo{font-weight:700;font-size:20px;margin-bottom:12px;display:inline-block}
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BKS Abogados - Servicios legales profesionales en Chile. Especialistas en derecho civil, laboral, familia y más.">
+  <meta name="keywords" content="abogados, servicios legales, derecho, Chile, BKS Abogados">
+  <title>BKS Abogados - Servicios Legales Profesionales</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="card" role="main">
-    <div class="logo">BKS Abogados</div>
-    <h1>Sitio en construcción</h1>
-    <p>Estamos actualizando nuestra página. Volvemos pronto con mejoras y novedades.</p>
-    <div class="contact">
-      <div>Mientras tanto, podés escribirnos a <a href="mailto:contacto@bksabogados.cl">contacto@bksabogados.cl</a></div>
-      <div style="margin-top:6px;color:var(--muted)">Si preferís, llamanos: <a href="tel:+56900000000">+56 9 0000 0000</a></div>
+  <!-- Header and Navigation -->
+  <header>
+    <nav>
+      <a href="#home" class="logo">BKS Abogados</a>
+      <ul class="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>BKS Abogados</h1>
+    <p>Servicios legales profesionales con experiencia y compromiso. Defendemos tus derechos con dedicación y excelencia.</p>
+    <a href="#contact" class="cta-button">Contáctanos</a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Derecho Civil</h3>
+        <p>Asesoría integral en contratos, propiedad, sucesiones y todas las materias del derecho civil.</p>
+      </div>
+      <div class="service-card">
+        <h3>Derecho Laboral</h3>
+        <p>Representación en conflictos laborales, negociaciones colectivas y asesoría en derecho del trabajo.</p>
+      </div>
+      <div class="service-card">
+        <h3>Derecho de Familia</h3>
+        <p>Apoyo legal en divorcios, tuición, pensiones alimenticias y otros asuntos familiares.</p>
+      </div>
+      <div class="service-card">
+        <h3>Derecho Comercial</h3>
+        <p>Asesoramiento empresarial, constitución de sociedades y contratos comerciales.</p>
+      </div>
+      <div class="service-card">
+        <h3>Derecho Penal</h3>
+        <p>Defensa penal en todas las etapas del proceso, protegiendo tus derechos.</p>
+      </div>
+      <div class="service-card">
+        <h3>Asesoría Legal</h3>
+        <p>Consultoría legal personalizada para particulares y empresas en diversas materias.</p>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Sobre Nosotros</h2>
+    <div class="about-content">
+      <p>BKS Abogados es un estudio jurídico comprometido con la excelencia en el servicio legal. Contamos con un equipo de profesionales altamente calificados y con amplia experiencia en diversas áreas del derecho.</p>
+      <p>Nuestra misión es brindar soluciones legales efectivas, personalizadas y de calidad, siempre priorizando los intereses de nuestros clientes. Trabajamos con dedicación, profesionalismo y ética en cada caso que asumimos.</p>
+      <p>Confía en nosotros para proteger tus derechos y alcanzar los mejores resultados en tus asuntos legales.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <div class="contact-content">
+      <p>Estamos aquí para ayudarte. Contáctanos y resolveremos tus consultas legales.</p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <h3>Email</h3>
+          <p><a href="mailto:contacto@bksabogados.cl">contacto@bksabogados.cl</a></p>
+        </div>
+        <div class="contact-item">
+          <h3>Teléfono</h3>
+          <p><a href="tel:+56900000000">+56 9 0000 0000</a></p>
+        </div>
+        <div class="contact-item">
+          <h3>Horario de Atención</h3>
+          <p>Lunes a Viernes: 9:00 - 18:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 BKS Abogados. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
