@@ -133,7 +133,7 @@ Copyright © 2024 BKS Abogados. All rights reserved.
 For any inquiries about the website or legal services:
 
 - **Email**: contacto@bksabogados.cl
-- **Phone**: +56 9 0000 0000
+- **Phone**: +569 9640 9835
 - **Website**: https://www.bksabogados.cl
 
 ---
