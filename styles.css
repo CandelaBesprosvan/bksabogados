@@ -375,3 +375,12 @@ section#quienes-somos h2 {
     color: #e5e7eb; /* Color gris claro */
     line-height: 1.6;
 }
+@media (max-width: 768px) {
+    .quienes-somos-grid {
+        grid-template-columns: 1fr; /* Cambia a una columna en pantallas pequeñas */
+    }
+
+    .card {
+        padding: 1rem;
+    }
+}
