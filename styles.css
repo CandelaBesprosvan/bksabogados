@@ -285,71 +285,33 @@ footer p {
     font-size: 0.9rem;
   }
 }
-* Styles for Quienes Somos Section */
-section#quienes-somos div {
-    display: flex;
-    flex-direction: column; /* Orden vertical: imagen, título, descripción */
-    align-items: center; /* Alinea todo al centro */
-    gap: 10px; /* Espacio entre la imagen, el título y la descripción */
-    margin-bottom: 20px; /* Espacio entre bloques individuales */
-}
-
-section#quienes-somos img {
-    width: 150px; /* Tamaño uniforme */
-    height: 150px;
-    object-fit: cover; /* Imágenes no deformadas */
-    border-radius: 10px; /* Esquinas redondeadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
-}
-
-section#quienes-somos h3 {
-    font-size: 1.2rem;
-    text-align: center; /* Centra el título */
-    margin-top: 10px;
-}
-
-section#quienes-somos p {
-    text-align: center; /* Centra la descripción */
-    line-height: 1.6;
-    max-width: 300px; /* Limita el ancho del texto */
-    color: var(--text-dark);
-}
-/* Fix alignment for Quienes Somos Section */
-section#quienes-somos div {
-    display: inline-block; /* Asegura que los bloques sean verticales */
-    text-align: center; /* Centra todos los elementos */
-    width: 100%; /* Ocupa el ancho completo disponible */
-    margin-bottom: 20px; /* Espaciado entre bloques */
-}
-
-section#quienes-somos img {
-    display: block; /* Asegura que la imagen no esté al lado del texto */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    width: 150px; /* Tamaño fijo */
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Agrega sombra */
-}
-
-/* Styles for Quienes Somos Section with Grid */
+/* Styles for Quienes Somos Section */
 section#quienes-somos {
     display: grid; /* Activa el sistema de cuadrícula */
     grid-template-columns: repeat(2, 1fr); /* Define dos columnas */
-    gap: 30px; /* Espaciado entre las celdas */
+    gap: 40px; /* Espaciado entre filas y columnas */
+    align-items: center; /* Centra los elementos verticalmente */
     justify-content: center; /* Centra las columnas horizontalmente */
 }
 
+section#quienes-somos h2 {
+    grid-column: span 2; /* El título ocupa ambas columnas */
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
 section#quienes-somos div {
-    text-align: center; /* Centra el contenido dentro de cada bloque */
+    text-align: center; /* Centra el contenido de cada elemento */
 }
 
 section#quienes-somos img {
     width: 150px; /* Ajusta el tamaño de las imágenes */
     height: 150px;
-    object-fit: cover; /* Asegura que no se deformen */
+    object-fit: cover; /* Evita deformaciones */
     border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Agrega sombra decorativa */
 }
 
 section#quienes-somos h3 {
@@ -358,7 +320,7 @@ section#quienes-somos h3 {
 }
 
 section#quienes-somos p {
-    text-align: center; /* Texto centrado */
+    text-align: center;
     line-height: 1.6;
     margin: 0 auto;
     max-width: 300px; /* Limita el ancho del contenido */
