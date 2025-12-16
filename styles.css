@@ -337,3 +337,34 @@ section#quienes-somos h3, section#quienes-somos p {
     text-align: center; /* Centra texto */
     max-width: 300px; /* Limita el ancho del texto */
 }
+/* Styles for Quienes Somos Section */
+section#quienes-somos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Configura las columnas */
+    gap: 20px; /* Espaciado entre los elementos */
+    justify-content: center; /* Centra los elementos */
+}
+
+section#quienes-somos div {
+    text-align: center;
+}
+
+section#quienes-somos img {
+    width: 150px; /* Tamaño uniforme */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Agrega sombra decorativa */
+}
+
+section#quienes-somos h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+section#quienes-somos p {
+    text-align: center;
+    line-height: 1.6;
+    max-width: 300px;
+    margin: 0 auto;
+}
