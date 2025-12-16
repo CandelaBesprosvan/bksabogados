@@ -287,92 +287,50 @@ footer p {
 }
 * Styles for Quienes Somos Section */
 section#quienes-somos {
-    padding-top: 40px;
+    background-color: #f3f4f6; /* Fondo claro */
+    color: #1f2937; /* Texto oscuro */
     text-align: center;
-}
-
-section#quienes-somos h2 {
-    color: var(--primary-color);
-    margin-bottom: 30px;
-    font-size: 2rem;
-}
-
-.quienes-somos-grid {
-    display: grid; /* Activa el diseño de cuadrícula */
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 40px; /* Espaciado entre filas y columnas */
-    justify-content: center; /* Centra las columnas horizontalmente */
-}
-
-.quienes-somos-grid div {
-    text-align: center;
-}
-
-.quienes-somos-grid img {
-    width: 150px; /* Tamaño uniforme */
-    height: 150px;
-    object-fit: cover; /* Ajusta proporciones sin deformar */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
-}
-
-.quienes-somos-grid h3 {
-    font-size: 1.5rem;
-    margin-top: 10px;
-}
-
-.quienes-somos-grid p {
-    text-align: center;
-    line-height: 1.6;
-    margin: 0 auto;
-    max-width: 300px; /* Limita el ancho del contenido */
-}
-/* Styles for Quienes Somos Section */
-section#quienes-somos {
-    background-color: #0f4a7b; /* Fondo azul similar al diseño */
-    color: white; /* Texto en blanco */
     padding: 2rem;
-    text-align: center;
 }
 
 section#quienes-somos h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    text-align: center;
-    color: #fff;
+    color: #1e3a8a; /* Color principal */
 }
 
 .quienes-somos-grid {
-    display: grid; /* Grid para organizar las tarjetas */
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 2rem; /* Espaciado entre tarjetas */
+    display: grid; /* Activa el diseño en cuadrícula */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales */
+    gap: 20px; /* Espaciado entre columnas y filas */
     max-width: 1200px;
     margin: 0 auto; /* Centra las tarjetas */
 }
 
 .card {
-    background-color: #006494; /* Fondo de las tarjetas */
-    padding: 1.5rem;
+    background-color: #ffffff; /* Fondo blanco para la tarjeta */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 1.5rem;
+    text-align: left; /* Texto alineado a la izquierda dentro de la tarjeta */
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Imagen ocupa el ancho completo */
     border-radius: 10px; /* Bordes redondeados */
     margin-bottom: 1rem;
 }
 
 .card h3 {
-    color: #fff;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    color: #1e3a8a; /* Color título */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .card p {
     font-size: 1rem;
-    color: #e5e7eb; /* Color gris claro */
+    color: #4b5563; /* Texto más claro */
     line-height: 1.6;
 }
 @media (max-width: 768px) {
