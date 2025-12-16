@@ -332,29 +332,24 @@ section#quienes-somos img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Agrega sombra */
 }
 
-section#quienes-somos h3, section#quienes-somos p {
-    margin: 10px auto; /* Espaciado uniforme y centrado */
-    text-align: center; /* Centra texto */
-    max-width: 300px; /* Limita el ancho del texto */
-}
-/* Styles for Quienes Somos Section */
+/* Styles for Quienes Somos Section with Grid */
 section#quienes-somos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Configura las columnas */
-    gap: 20px; /* Espaciado entre los elementos */
-    justify-content: center; /* Centra los elementos */
+    display: grid; /* Activa el sistema de cuadrícula */
+    grid-template-columns: repeat(2, 1fr); /* Define dos columnas */
+    gap: 30px; /* Espaciado entre las celdas */
+    justify-content: center; /* Centra las columnas horizontalmente */
 }
 
 section#quienes-somos div {
-    text-align: center;
+    text-align: center; /* Centra el contenido dentro de cada bloque */
 }
 
 section#quienes-somos img {
-    width: 150px; /* Tamaño uniforme */
+    width: 150px; /* Ajusta el tamaño de las imágenes */
     height: 150px;
-    object-fit: cover;
-    border-radius: 10px; /* Esquinas redondeadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Agrega sombra decorativa */
+    object-fit: cover; /* Asegura que no se deformen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
 }
 
 section#quienes-somos h3 {
@@ -363,38 +358,8 @@ section#quienes-somos h3 {
 }
 
 section#quienes-somos p {
-    text-align: center;
-    line-height: 1.6;
-    max-width: 300px;
-    margin: 0 auto;
-}
-/* Styles for Quienes Somos Section with Grid */
-section#quienes-somos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Define dos columnas */
-    gap: 40px; /* Espaciado entre bloques */
-    align-items: center; /* Centra los elementos verticalmente */
-    justify-content: center; /* Centra las columnas horizontalmente */
-}
-
-section#quienes-somos div {
-    text-align: center; /* Centra el contenido de cada bloque */
-}
-
-section#quienes-somos img {
-    width: 150px; /* Tamaño uniforme */
-    height: 150px;
-    object-fit: cover; /* Ajusta la proporción sin deformar */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
-}
-
-section#quienes-somos h3 {
-    font-size: 1.5rem;
-}
-
-section#quienes-somos p {
+    text-align: center; /* Texto centrado */
     line-height: 1.6;
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 300px; /* Limita el ancho del contenido */
 }
