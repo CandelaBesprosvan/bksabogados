@@ -285,29 +285,30 @@ footer p {
     font-size: 0.9rem;
   }
 }
-/* Styles for Quienes Somos Section */
+* Styles for Quienes Somos Section */
 section#quienes-somos {
-    display: grid; /* Activamos la cuadrícula */
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 40px; /* Espaciado entre filas y columnas */
-    align-items: start; /* Alineamos los bloques desde el inicio */
-    justify-content: center; /* Centra todas las columnas */
-    padding-top: 40px; /* Separación suficiente desde el encabezado */
+    padding-top: 40px;
+    text-align: center;
 }
 
 section#quienes-somos h2 {
-    grid-column: span 2; /* El título abarca ambas columnas */
-    text-align: center;
     color: var(--primary-color);
     margin-bottom: 30px;
     font-size: 2rem;
 }
 
-section#quienes-somos div {
-    text-align: center; /* Centra cada bloque */
+.quienes-somos-grid {
+    display: grid; /* Activa el diseño de cuadrícula */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 40px; /* Espaciado entre filas y columnas */
+    justify-content: center; /* Centra las columnas horizontalmente */
 }
 
-section#quienes-somos img {
+.quienes-somos-grid div {
+    text-align: center;
+}
+
+.quienes-somos-grid img {
     width: 150px; /* Tamaño uniforme */
     height: 150px;
     object-fit: cover; /* Ajusta proporciones sin deformar */
@@ -315,16 +316,14 @@ section#quienes-somos img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
 }
 
-section#quienes-somos h3 {
+.quienes-somos-grid h3 {
     font-size: 1.5rem;
     margin-top: 10px;
 }
 
-section#quienes-somos p {
-    text-align: center; /* Centrado del texto */
+.quienes-somos-grid p {
+    text-align: center;
     line-height: 1.6;
     margin: 0 auto;
-    max-width: 300px; /* Limita el ancho del contenido */
-}
     max-width: 300px; /* Limita el ancho del contenido */
 }
