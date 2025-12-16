@@ -29,52 +29,56 @@ body {
   background-color: var(--bg-white);
 }
 
-/* Header and Navigation */
+/* Header Navigation Styles */
 header {
-  background-color: var(--bg-white);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--primary-color);
-  text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1e3a8a;
+    text-decoration: none;
 }
 
 .nav-links {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
 }
 
 .nav-links a {
-  color: var(--text-dark);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+    color: #1f2937;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: var(--secondary-color);
+    color: #3b82f6;
 }
 
 .nav-links a.active {
-  color: var(--secondary-color);
-  font-weight: 600;
+    color: #3b82f6;
+    font-weight: 600;
+}
+
+html {
+    scroll-behavior: smooth; /* Efecto de desplazamiento suave */
 }
 
 /* Hero Section */
