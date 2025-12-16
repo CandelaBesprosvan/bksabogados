@@ -314,3 +314,26 @@ section#quienes-somos p {
     max-width: 300px; /* Limita el ancho del texto */
     color: var(--text-dark);
 }
+/* Fix alignment for Quienes Somos Section */
+section#quienes-somos div {
+    display: inline-block; /* Asegura que los bloques sean verticales */
+    text-align: center; /* Centra todos los elementos */
+    width: 100%; /* Ocupa el ancho completo disponible */
+    margin-bottom: 20px; /* Espaciado entre bloques */
+}
+
+section#quienes-somos img {
+    display: block; /* Asegura que la imagen no esté al lado del texto */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 150px; /* Tamaño fijo */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+}
+
+section#quienes-somos h3, section#quienes-somos p {
+    margin: 10px auto; /* Espaciado uniforme y centrado */
+    text-align: center; /* Centra texto */
+    max-width: 300px; /* Limita el ancho del texto */
+}
