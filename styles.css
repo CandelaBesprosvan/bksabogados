@@ -285,39 +285,32 @@ footer p {
     font-size: 0.9rem;
   }
 }
-/* Styles for Quienes Somos Section */
-section#quienes-somos img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
+* Styles for Quienes Somos Section */
 section#quienes-somos div {
     display: flex;
-    flex-direction: column; /* Cambia la dirección de los elementos a columna */
-    align-items: center; /* Centra todos los elementos */
-    gap: 10px; /* Espacio entre la imagen y el texto */
-    margin-bottom: 20px; /* Espacio entre bloques */
+    flex-direction: column; /* Orden vertical: imagen, título, descripción */
+    align-items: center; /* Alinea todo al centro */
+    gap: 10px; /* Espacio entre la imagen, el título y la descripción */
+    margin-bottom: 20px; /* Espacio entre bloques individuales */
 }
 
 section#quienes-somos img {
     width: 150px; /* Tamaño uniforme */
     height: 150px;
-    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    object-fit: cover; /* Imágenes no deformadas */
     border-radius: 10px; /* Esquinas redondeadas */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
 }
 
 section#quienes-somos h3 {
-    font-size: 1.5rem;
-    margin-top: 10px;
+    font-size: 1.2rem;
     text-align: center; /* Centra el título */
+    margin-top: 10px;
 }
 
 section#quienes-somos p {
     text-align: center; /* Centra la descripción */
     line-height: 1.6;
     max-width: 300px; /* Limita el ancho del texto */
+    color: var(--text-dark);
 }
