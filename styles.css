@@ -287,15 +287,16 @@ footer p {
 }
 /* Styles for Quienes Somos Section */
 section#quienes-somos {
-    display: grid; /* Activa el sistema de cuadrícula */
-    grid-template-columns: repeat(2, 1fr); /* Define dos columnas */
+    display: grid; /* Activamos la cuadrícula */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
     gap: 40px; /* Espaciado entre filas y columnas */
-    align-items: center; /* Centra los elementos verticalmente */
-    justify-content: center; /* Centra las columnas horizontalmente */
+    align-items: start; /* Alineamos los bloques desde el inicio */
+    justify-content: center; /* Centra todas las columnas */
+    padding-top: 40px; /* Separación suficiente desde el encabezado */
 }
 
 section#quienes-somos h2 {
-    grid-column: span 2; /* El título ocupa ambas columnas */
+    grid-column: span 2; /* El título abarca ambas columnas */
     text-align: center;
     color: var(--primary-color);
     margin-bottom: 30px;
@@ -303,15 +304,15 @@ section#quienes-somos h2 {
 }
 
 section#quienes-somos div {
-    text-align: center; /* Centra el contenido de cada elemento */
+    text-align: center; /* Centra cada bloque */
 }
 
 section#quienes-somos img {
-    width: 150px; /* Ajusta el tamaño de las imágenes */
+    width: 150px; /* Tamaño uniforme */
     height: 150px;
-    object-fit: cover; /* Evita deformaciones */
+    object-fit: cover; /* Ajusta proporciones sin deformar */
     border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Agrega sombra decorativa */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra decorativa */
 }
 
 section#quienes-somos h3 {
@@ -320,8 +321,10 @@ section#quienes-somos h3 {
 }
 
 section#quienes-somos p {
-    text-align: center;
+    text-align: center; /* Centrado del texto */
     line-height: 1.6;
     margin: 0 auto;
+    max-width: 300px; /* Limita el ancho del contenido */
+}
     max-width: 300px; /* Limita el ancho del contenido */
 }
