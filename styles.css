@@ -85,9 +85,16 @@ html {
 .hero {
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: white;
-  padding: 6rem 1.5rem 3rem;
+  padding: 2rem 1rem; /* Reduce el espacio interno aún más */
   text-align: center;
-  margin-top: 60px;
+  margin: 30px auto; /* Reduce el espacio externo superior */
+  max-width: 900px; /* Limita el ancho del recuadro */
+  height: 300px; /* Ajusta la altura directamente */
+  border-radius: 10px; /* Bordes redondeados, opcional */
+  display: flex; /* Activa el modelo flexbox */
+  flex-direction: column; /* Asegura el contenido en columna */
+  justify-content: center; /* Centra el contenido verticalmente */
+  align-items: center; /* Centra el contenido horizontalmente */
 }
 
 .hero h1 {
