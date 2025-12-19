@@ -87,7 +87,7 @@ html {
   color: white;
   padding: 2rem 1rem; /* Reduce el espacio interno aún más */
   text-align: center;
-  margin: 25px auto; /* Reduce el espacio externo superior */
+  margin: 28px auto; /* Reduce el espacio externo superior */
   max-width: 900px; /* Limita el ancho del recuadro */
   height: 300px; /* Ajusta la altura directamente */
   border-radius: 10px; /* Bordes redondeados, opcional */
