@@ -88,8 +88,8 @@ html {
   padding: 2rem 1rem; /* Reduce el espacio interno aún más */
   text-align: center;
   margin: 30px auto; /* Reduce el espacio externo superior */
-  max-width: 900px; /* Limita el ancho del recuadro */
-  height: 300px; /* Ajusta la altura directamente */
+  max-width: 700px; /* Limita el ancho del recuadro */
+  height: 100px; /* Ajusta la altura directamente */
   border-radius: 10px; /* Bordes redondeados, opcional */
   display: flex; /* Activa el modelo flexbox */
   flex-direction: column; /* Asegura el contenido en columna */
