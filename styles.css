@@ -242,9 +242,16 @@ footer p {
     justify-content: center;
   }
 
-  .hero {
-    padding: 6rem 1rem 3rem;
-  }
+ .hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 3rem 1rem; /* Reduce el espacio interno */
+  text-align: center;
+  margin: 60px auto; /* Centra la sección y ajusta el espacio externo */
+  max-width: 800px; /* Limita el ancho máximo del recuadro */
+  border-radius: 10px; /* Opcional: bordes redondeados */
+}
+
 
   .hero h1 {
     font-size: 2rem;
